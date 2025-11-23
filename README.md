@@ -95,7 +95,7 @@ sudo apt install libcurl4-openssl-dev libmpg123-dev portaudio19-dev
 
 ### Build
 ```bash
-git clone https://github.com/YOURUSERNAME/almostfm.git
+git clone https://github.com/ogetalha/almostfm.git
 cd almostfm
 mkdir build && cd build
 cmake ..
