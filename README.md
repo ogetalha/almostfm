@@ -1,4 +1,4 @@
-# QtRadio — A Modern Cross-Platform Internet Radio Player
+# AlmostFM — An Internet Radio Player
 ![alt text](Images/Radio.png "Radio")
 
 *A hands-on dive into C++, DSP fundamentals, audio pipelines, and Qt/QML UI design.*
