@@ -5,7 +5,6 @@
 #include <QString>
 #include <thread>
 #include <atomic>
-#include <vector>
 #include <portaudio.h>
 #include <mpg123.h>
 
