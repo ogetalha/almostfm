@@ -1,11 +1,11 @@
-# QtRadio — A Modern Cross-Platform Internet Radio Player
+# AlmostFM — A Modern Cross-Platform Internet Radio Player
 ![alt text](Images/Radio.png "Radio")
 
 *A hands-on dive into C++, DSP fundamentals, audio pipelines, and Qt/QML UI design.*
 
 ## Overview
 
-QtRadio is a custom-built, cross-platform internet radio streaming application developed using **modern C++**, **Qt 6**, **QML**, and a real digital audio pipeline built around **libcurl**, **mpg123**, and **PortAudio**.
+AlmostFM is a custom-built, cross-platform internet radio streaming application developed using **modern C++**, **Qt 6**, **QML**, and a real digital audio pipeline built around **libcurl**, **mpg123**, and **PortAudio**.
 
 This project was created as a practical exploration of **how audio actually travels from a remote stream → into your system → and out of your speakers**, while learning the workflows behind Linux development, GUI engineering, CMake, and cross-platform deployment.
 
@@ -95,8 +95,8 @@ sudo apt install libcurl4-openssl-dev libmpg123-dev portaudio19-dev
 
 ### Build
 ```bash
-git clone https://github.com/YOURUSERNAME/qtradio.git
-cd qtradio
+git clone https://github.com/YOURUSERNAME/almostfm.git
+cd almostfm
 mkdir build && cd build
 cmake ..
 cmake --build . --config Release
