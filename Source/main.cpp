@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
     RadioStatus radioStatus;
     engine.rootContext()->setContextProperty("radioStatus", &radioStatus);
 
-    engine.load(QUrl(QStringLiteral("../../Main.qml")));
+    engine.load(QUrl(QStringLiteral("../../Source/Main.qml")));
     if (engine.rootObjects().isEmpty())
         return -1;
 

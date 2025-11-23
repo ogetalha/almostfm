@@ -1,4 +1,5 @@
 # QtRadio — A Modern Cross-Platform Internet Radio Player
+![alt text](Images/Radio.png "Radio")
 
 *A hands-on dive into C++, DSP fundamentals, audio pipelines, and Qt/QML UI design.*
 
@@ -29,7 +30,7 @@ The app streams MP3 radio stations in real time, decodes audio using mpg123, and
 - Integrating C++ backend with QML frontend
 - Signals/slots, properties, threading
 
-### Linux & DevOps Workflow
+### Linux & DevOps Workflow (WIP)
 - pkg-config, toolchains
 - GitHub CI/CD
 - AppImage packaging
@@ -51,7 +52,17 @@ The app streams MP3 radio stations in real time, decodes audio using mpg123, and
 - Play / Pause / Stop controls
 - Station switching
 
+### Station List
 
+The application currently includes the following preset stations:
+
+| Station Name            | Frequency (MHz) | Stream URL |
+|-------------------------|-----------------|------------|
+| Radio Paradise          | 88.5 MHz        | http://stream.radioparadise.com/mp3-192 |
+| Soma FM Groove Salad    | 92.8 MHz        | http://ice1.somafm.com/groovesalad-128-mp3 |
+| Swiss Jazz              | 95.2 MHz        | http://stream.srg-ssr.ch/m/rsj/mp3_128 |
+| KEXP Seattle            | 101.7 MHz       | http://live-mp3-128.kexp.org/kexp128.mp3 |
+| Jazz24                  | 106.5 MHz       | http://live.wostreaming.net/direct/ppm-jazz24aac-ibc1 |
 ---
 
 ## Technical Details
